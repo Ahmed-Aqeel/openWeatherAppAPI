@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 3% 8%;
+    color: white;
+    
+      background: linear-gradient(300deg,deepskyblue,#1ff3e0,#f5728b);
+  background-size: 360% 360%;
+  animation: gradient-animation 30s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.search-bar{
+    width: 55%;
+    border-radius: 8px;
+    padding: 0 1%;
+    border: 0.5px solid black;
+
+}
+.search-btn{
+    width: 72px;
+    height: 32px;
+    border-radius: 12px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    
+}
+.city{
+    font-size: 196px;
+    text-align: center;
+    margin-bottom: 96px;
+    font-weight: 500;
+    font-family: 'Lovers Quarrel', cursive;
+}
+.data-display-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+.bold{
+    font-weight: 600;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.localStorageBtns{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.LS-btn{
+  width: 136px;
+  border-radius: 8px;
+  height: 32px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  border: 1px solid white;
+  margin: 0 72px;
+  
+}

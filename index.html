@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <h2 class="logo-head">Weather App</h2>
+      <input placeholder="Enter City Name or Zip Code here " class="search-bar" id="search" type="text">
+      <button class="search-btn" id="search_btn">Search</button>
+      
+    </div>
+    <div class="city" id="city">
+      
+      Welcome
+
+    </div>
+    <div class="data-display-cards">
+      <div class="card" ><i class="fa-solid fa-temperature-three-quarters"></i>Temperature: <h3 id="temp" class="bold">37C</h3></div>
+      <div class="card" ><i class="fa-solid fa-temperature-three-quarters"></i>Humidity: <h3 id="humidity" class="bold">33%</h3></div>
+      <div class="card" ><i class="fa-solid fa-wind"></i>Windspeed: <h3 id="windspeed" class="bold">4mph</h3></div>
+      <!-- <div class="card">Clouds: <h3 class="clouds"></h3></div> -->
+      
+
+    </div>
+    
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
